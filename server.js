@@ -6,7 +6,7 @@ const cors = require("cors")
 app.use(express.json())
 app.use(
   cors({
-    origin: "https://gethisgreen.com",
+    origin: "https://www.gethisgreen.com",
   })
 )
 
